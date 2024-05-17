@@ -1,6 +1,6 @@
 $(function () {
   // 대상을 변수에 저장
-  const $faqQ = $('.faq-wrap > ul li');
+  const $faqQ = $('.faq-wrap > ul > li');
   const $faqA = $('.answer-wrap');
   const duration = 300;
 
