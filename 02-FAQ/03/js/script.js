@@ -18,6 +18,6 @@ $(function () {
     $(this).siblings().find($faqA).stop().slideUp(duration);
     // 선택한 놈을 기준, 하위에 있는 답변만 내리기
     // $(this).find('.answer-wrap').slideDown(duration);
-    $(this).find($faqA).stop().slidetoggle(duration);
+    $(this).find($faqA).stop().slideToggle(duration);
   });
 });
